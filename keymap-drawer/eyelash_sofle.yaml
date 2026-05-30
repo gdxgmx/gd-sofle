@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: _, h: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -54,14 +54,14 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: F24, h: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - LAYER1
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - LAYER2
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
