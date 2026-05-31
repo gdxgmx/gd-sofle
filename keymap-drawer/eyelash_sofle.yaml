@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - {t: D-pad_LdrWindow, h: toggle}
+  - {t: dpad_LdrWindow, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  D-pad_LdrWindow:
+  dpad_LdrWindow:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
