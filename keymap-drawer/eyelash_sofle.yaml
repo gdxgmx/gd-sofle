@@ -6,47 +6,47 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - F20
-  - {t: '6', h: '$$mdi:apple-keyboard-control$$', s: ^}
-  - {t: '7', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '8', h: '$$mdi:apple-keyboard-option$$', s: '*'}
-  - {t: '9', h: RIGHT GUI, s: (}
+  - {t: '5', h: LGUI, s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', h: F20, s: ^}
+  - {t: '7', h: F18}
+  - {t: '8', h: F19, s: '*'}
+  - {t: '9', h: F17, s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-option$$
   - Q
   - W
   - E
   - R
   - T
-  - F18
+  - $$mdi:arrow-down-bold$$
   - Y
   - U
   - I
   - O
   - P
-  - {t: _, h: '$$mdi:apple-keyboard-caps$$'}
+  - _
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
   - F
   - G
-  - F17
+  - $$mdi:arrow-left-bold$$
   - H
   - J
   - K
   - L
   - {t: '''', s: '"'}
-  - ':'
+  - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
   - V
   - B
-  - F19
+  - $$mdi:arrow-right-bold$$
   - N
   - M
   - {t: ',', s: <}
@@ -55,14 +55,14 @@ layers:
   - {t: F14, h: MouseMO}
   - F24
   - {t: LAYER1, h: toggle}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-caps$$
+  - {t: FlipLeft, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - F21
-  - {t: F6, h: F13}
+  - $$mdi:apple-keyboard-command$$
   - {t: F15, h: F16}
-  - {t: F2, h: CONTEXT MENU}
+  - {t: F6, h: CONTEXT MENU}
   - {t: LAYER1, h: '$$mdi:gesture-tap-hold$$'}
   - {t: RH_Mouse, h: toggle}
   MouseMO:
@@ -223,11 +223,11 @@ layers:
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
+  - +
+  - {t: /, s: '?'}
+  - '*'
   - {t: PREVIOUS, h: REWIND}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -260,6 +260,71 @@ layers:
   - KP 8
   - {t: KP 9, type: held}
   - KP 0
+  FlipLeft:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - H
+  - J
+  - K
+  - L
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - N
+  - M
+  - {t: ',', s: <}
+  - .
+  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
